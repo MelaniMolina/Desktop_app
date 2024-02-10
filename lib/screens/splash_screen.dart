@@ -53,7 +53,12 @@ class _SplashScreenState extends State<SplashScreen>
                 ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(390.90),
-                  child: Image.asset('assets/images/fondo3.jpg'),
+                  child: Container(
+                    width: 300.0, // Establece el ancho deseado
+                    height: 300.0, // Establece la altura deseada
+                    child: Image.asset('assets/images/fondo3.jpg',
+                        fit: BoxFit.cover),
+                  ),
                 ),
               ),
             ),
@@ -70,7 +75,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: const Text(
                 'World of Movies!',
                 style: TextStyle(
-                  fontSize: 28,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   fontStyle: FontStyle.italic,
                   color: Colors.black,
@@ -82,11 +87,11 @@ class _SplashScreenState extends State<SplashScreen>
         ),
       ),
       bottomNavigationBar: const SizedBox(
-        height: 40,
+        height: 30,
         child: Text(
           'Creator by: Melani Molina Franklin Patiño',
           textAlign: TextAlign.center,
-          style: TextStyle(color: Colors.black, fontStyle: FontStyle.italic),
+          style: TextStyle(color: Colors.black, fontStyle: FontStyle.italic , fontSize: 20),
         ),
       ),
     );

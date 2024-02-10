@@ -132,7 +132,34 @@ class _SignUpFormState extends State<SignUpForm> {
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState?.validate() ?? false) {
-                  
+                    bool accountCreated = true;
+                    if (accountCreated) {
+                      Fluttertoast.showToast(
+                        msg: 'Account created successfully!',
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.green,
+                        textColor: Colors.white,
+                      );
+
+                      // Aquí podrías realizar otras acciones, como navegar a la pantalla de inicio de sesión, por ejemplo
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => LoginScreen(
+                            themeData: state.themeData,
+                          ),
+                        ),
+                      );
+                    } else{
+                      Fluttertoast.showToast(
+                        msg: 'Failed to create account',
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.red,
+                        textColor: Colors.white,
+                      );
+                    }
                   }
                 },
                 style: ElevatedButton.styleFrom(
@@ -162,6 +189,4 @@ class _SignUpFormState extends State<SignUpForm> {
       ),
     );
   }
-
-  
 }

@@ -104,7 +104,24 @@ class _LoginFormState extends State<LoginForm> {
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState?.validate() ?? false) {
-                   
+                    bool loginSuccess = true;
+                    if (loginSuccess) {
+                      Fluttertoast.showToast(
+                        msg: 'Login successful!',
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.green,
+                        textColor: Colors.white,
+                      );
+                    } else {
+                      Fluttertoast.showToast(
+                        msg: 'Invalid email or password',
+                        toastLength: Toast.LENGTH_SHORT,
+                        gravity: ToastGravity.BOTTOM,
+                        backgroundColor: Colors.red,
+                        textColor: Colors.white,
+                      );
+                    }
                   }
                 },
                 style: ElevatedButton.styleFrom(
@@ -121,10 +138,9 @@ class _LoginFormState extends State<LoginForm> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>
-                          ForgotPasswordScreen(
-                            themeData: widget.themeData,
-                          ),
+                      builder: (context) => ForgotPasswordScreen(
+                        themeData: widget.themeData,
+                      ),
                     ),
                   );
                 },
@@ -136,6 +152,4 @@ class _LoginFormState extends State<LoginForm> {
       ),
     );
   }
-
-
 }

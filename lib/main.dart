@@ -10,11 +10,12 @@ import 'package:movies/screens/widgets.dart';
 import 'package:movies/theme/theme_state.dart';
 import 'package:provider/provider.dart';
 import 'package:movies/screens/splash_screen.dart';
-
+import 'package:fluttertoast/fluttertoast.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
+  Fluttertoast.showToast;
 }
 class MyApp extends StatelessWidget {
   @override
@@ -66,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         centerTitle: true,
         title: Text(
-          '🌟 Welcome to the World of Movies! 🎬🍿',
+          'Welcome to the World of Movies! 🎬🍿',
           style: TextStyle(
             fontSize: state.themeData.textTheme.headline5!.fontSize,
             fontWeight: state.themeData.textTheme.headline5!.fontWeight,

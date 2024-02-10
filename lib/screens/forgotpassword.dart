@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class ForgotPasswordScreen extends StatefulWidget {
   final ThemeData? themeData;
@@ -61,7 +62,30 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
             SizedBox(height: 24),
             ElevatedButton(
               onPressed: () {
-               
+                // Aquí podrías enviar el enlace de restablecimiento de contraseña
+                // Simulando que el enlace se envió correctamente
+                bool linkSent = true; // Cambia esto según tu lógica de envío de enlaces
+
+                if (linkSent) {
+                  Fluttertoast.showToast(
+                    msg: 'Reset link sent successfully!',
+                    toastLength: Toast.LENGTH_SHORT,
+                    gravity: ToastGravity.BOTTOM,
+                    backgroundColor: Colors.green,
+                    textColor: Colors.white,
+                  );
+
+                  // Puedes realizar otras acciones aquí, como navegar a la pantalla de inicio de sesión, por ejemplo
+                  Navigator.pop(context); // Vuelve a la pantalla anterior
+                } else {
+                  Fluttertoast.showToast(
+                    msg: 'Failed to send reset link',
+                    toastLength: Toast.LENGTH_SHORT,
+                    gravity: ToastGravity.BOTTOM,
+                    backgroundColor: Colors.red,
+                    textColor: Colors.white,
+                  );
+                }
               },
               style: ElevatedButton.styleFrom(
                 shape: RoundedRectangleBorder(
@@ -75,6 +99,4 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
       ),
     );
   }
-
- 
 }
