@@ -27,11 +27,11 @@ Screenshots:
 
 | Screenshot 1 | Screenshot 2 | Screenshot 3 |
 | ------------ | ------------ | ------------ |
-| ![Screenshot 1](https://github.com/MelaniMolina/Desktop_app/assets/113868310/9553cd58-45f9-44eb-9f44-02d2185e33da) | ![Screenshot 2](https://github.com/MelaniMolina/Desktop_app/assets/113868310/1757c48e-cfa1-4abb-8d6e-9eea1961f7b4) | ![Screenshot 3](https://github.com/MelaniMolina/Desktop_app/assets/113868310/ef84f8dd-8518-4397-a049-05d3554bb2dd) |
+| ![Screenshot 1](https://github.com/MelaniMolina/Desktop_app/assets/113868310/7f9b6ce2-c4c2-4633-a206-de02df64d68e) | ![Screenshot 2](https://github.com/MelaniMolina/Desktop_app/assets/113868310/9c6bfa00-ca6b-4752-95a0-cacda2391349) | ![Screenshot 3](https://github.com/MelaniMolina/Desktop_app/assets/113868310/08294f02-bd1b-4567-b54d-f0d844e6726b)|
 
-| Screenshot 4 |
-| ------------ |
-| ![Screenshot 4](https://github.com/MelaniMolina/Desktop_app/assets/113868310/4aab0de9-1747-434f-b163-1fb9a106fc44) |
+| Screenshot 4 | Screenshot 5 |
+| ------------ | ------------ |
+| ![Screenshot 4](https://github.com/MelaniMolina/Desktop_app/assets/113868310/4e64ae68-e659-4ca3-b14d-bef67e0969ce) | ![Screenshot 5](https://github.com/MelaniMolina/Desktop_app/assets/113868310/cebcc4a2-5f25-4d60-a721-a38431efe0d2)|
 
 ## Additional Images:
 
