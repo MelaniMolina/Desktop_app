@@ -2,7 +2,7 @@
 
 This Flutter app displays details of movies that you can search for or browse.
 
-![App Logo](https://github.com/MelaniMolina/Desktop_app/assets/113868310/3029487e-530a-42b7-8a8f-056e4b97c95d)
+![App Logo](![image](https://github.com/MelaniMolina/Desktop_app/assets/113868310/5b41ae0c-e124-44a4-9ed8-3cba2a33a7f6))
 
 ## Instructions for Desktop Application Generation:
 
