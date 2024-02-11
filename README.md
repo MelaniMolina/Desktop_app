@@ -33,13 +33,6 @@ Screenshots:
 | ------------ | ------------ |
 | ![Screenshot 4](https://github.com/MelaniMolina/Desktop_app/assets/113868310/4e64ae68-e659-4ca3-b14d-bef67e0969ce) | ![Screenshot 5](https://github.com/MelaniMolina/Desktop_app/assets/113868310/cebcc4a2-5f25-4d60-a721-a38431efe0d2)|
 
-## Additional Images:
-
-![Additional Image 1](https://github.com/MelaniMolina/Desktop_app/assets/113868310/ff985a75-a499-4e47-9f86-d040356e9840)
-
-![Additional Image 2](https://github.com/MelaniMolina/Desktop_app/assets/113868310/d5cbc585-9d9c-4dd0-afcd-d41f2bb13d2c)
-
-
 ## Additional Resources:
 Desktop application: [APP](https://epnecuador-my.sharepoint.com/:f:/g/personal/melani_molina_epn_edu_ec/ElUMIntatp9OoX0JpTKuKo8BsztIh5ihAkiiKnwKsZroPg?e=eB3veM)
 
